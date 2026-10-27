@@ -71,5 +71,10 @@ public class Ordinateur {
                 this.etat = nouveuEtat;
             }
         }
-    }  
+    } 
+    
+    @Override 
+    public String toString() {
+        return "NOM : " + this.nom + "ID : " + this.ID + "Adresse IP : " + this.adresseIP + "OS : " + this.OS + "ETAT: " + this.etat; 
+    }    
 }
